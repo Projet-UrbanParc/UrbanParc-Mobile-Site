@@ -64,6 +64,9 @@
 p{
   font-family: 'Mirza', cursive;
 }
+h2{
+  font-family: 'Lobster', cursive;
+}
 a{
   text-decoration: none;
 }
@@ -85,10 +88,10 @@ img{
 /*---------------------------------------------------------------------------------------------------------------------*/
 
 /*=====================================*/
-/*   RESPONSIVE   (min-width: 192px )  */
+/*   RESPONSIVE   (min-width: 1917px )  */
 /*=====================================*/
 
-@media all and (min-width: 1920px)
+@media all and (min-width: 1850px)
 {
 /*========*/
 /* HEADER */
@@ -258,6 +261,7 @@ img{
     font-size: 20px;
   }
   h2{
+    font-family: 'Lobster', cursive;
     font-size: 24px;
   }
   .img_sec{
@@ -313,11 +317,13 @@ img{
     margin: -0.5em;
   }
   #mainbistrot h2{
-    font-size: 22px;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
     color: #FB7826;
   }
   #mainbistrot p{
-    font-size: 18px;
+    font-family: 'Mirza', cursive;
+    font-size: 22px;
   }
   #mainbistrot img{
     margin: 0.5em auto;
@@ -436,7 +442,7 @@ img{
 /*   RESPONSIVE   (min-width: 1280px and max-width: 1919px)  */
 /*===========================================================*/
 
-@media all and (min-width: 1280px) and (max-width: 1919px)
+@media all and (min-width: 1280px) and (max-width: 1849px)
 {
 /*========*/
 /* HEADER */
